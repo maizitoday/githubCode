@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/My﻿Consumer-9001/consumer-9001.iml" filepath="$PROJECT_DIR$/My﻿Consumer-9001/consumer-9001.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyProvide-8001/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/MyProvide-8001/target/maven-archiver/maven-archiver (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyTools/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/MyTools/target/maven-archiver/maven-archiver (2).iml" />
-      <module fileurl="file://$PROJECT_DIR$/My﻿Consumer-9001/target/maven-archiver/maven-archiver (3).iml" filepath="$PROJECT_DIR$/My﻿Consumer-9001/target/maven-archiver/maven-archiver (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka5001/eureka5001.iml" filepath="$PROJECT_DIR$/eureka5001/eureka5001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka5002/eureka5002.iml" filepath="$PROJECT_DIR$/eureka5002/eureka5002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka5003/eureka5003.iml" filepath="$PROJECT_DIR$/eureka5003/eureka5003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka6001/eureka6001.iml" filepath="$PROJECT_DIR$/eureka6001/eureka6001.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud.iml" filepath="$PROJECT_DIR$/mycloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTools/mytools.iml" filepath="$PROJECT_DIR$/MyTools/mytools.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyProvide-8001/provide-8001.iml" filepath="$PROJECT_DIR$/MyProvide-8001/provide-8001.iml" />

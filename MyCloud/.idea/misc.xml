@@ -13,11 +13,17 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/MyTools/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/MyProvide-8001/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/My﻿Consumer-9001/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/eureka7001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka5001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka5002/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka5003/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eureka5001/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -62,6 +68,9 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="masterDetails">
     <states>
