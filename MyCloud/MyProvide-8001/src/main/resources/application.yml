@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: provide-1 #入驻eureka的服务名称
+    name: provide-data #入驻eureka的服务名称
 
 eureka:
   client:

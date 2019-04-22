@@ -4,7 +4,8 @@ import entity.MaiziUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+
+import com.example.demo.feign.DataService;
 
 /**
  * @author yubo
@@ -17,14 +18,24 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ConsumerController {
 
+//    @Autowired
+//    private RestTemplate restTemplate;
+
     @Autowired
-    private RestTemplate restTemplate;
+    private DataService dataService;
 
-    private static final String  URL = "http://localhost:8001";
 
-    @RequestMapping("getData")
-    private MaiziUser getData()
+//    private static final String  URL = "http://PROVIDE-DATA/";
+
+//    @RequestMapping("getData")
+//    private MaiziUser getData()
+//    {
+//        return restTemplate.getForObject(URL+ "provide",MaiziUser.class);
+//    }
+
+    @RequestMapping("getDataByFeign")
+    private MaiziUser getDataByFeign()
     {
-        return restTemplate.getForObject(URL+ "provide",MaiziUser.class);
+        return dataService.getDataByFeign();
     }
 }

@@ -1,9 +1,6 @@
 package com.example.demo;
-import org.springframework.context.annotation.Bean;
+
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.client.ClientHttpRequestFactory;
-import org.springframework.http.client.SimpleClientHttpRequestFactory;
-import org.springframework.web.client.RestTemplate;
 /**
  * @author yubo
  * @version V2.0
@@ -12,18 +9,23 @@ import org.springframework.web.client.RestTemplate;
  * @Company: cecsm.com
  * @Copyright Copyright (c) 2017
  */
+
+/***
+ * boot -->spring   applicationContext.xml --- @Configuration配置   ConfigBean = applicationContext.xml
+ */
 @Configuration
 public class RestTemplateConfig {
-	@Bean
-	public RestTemplate restTemplate(ClientHttpRequestFactory factory) {
-		return new RestTemplate(factory);
-	}
+//	@Bean
+//	@LoadBalanced
+//	public RestTemplate getRestTemplate() {
+//		return new RestTemplate();
+//	}
 
-	@Bean
-	public ClientHttpRequestFactory simpleClientHttpRequestFactory() {
-		SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-		factory.setConnectTimeout(15000);
-		factory.setReadTimeout(5000);
-		return factory;
-	}
+//	@Bean
+//	public IRule myRule()
+//	{
+//		//return new RoundRobinRule(); //达到的目的，用我们重新选择的随机算法替代默认的轮询。
+//		return new RandomRule();//随机
+//	}
+
 }

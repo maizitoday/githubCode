@@ -30,6 +30,7 @@
         <module>MyTools</module>
         <module>MyProvide-8001</module>
         <module>My﻿Consumer-9001</module>
+        <module>provide8002</module>
     </modules>
 
 

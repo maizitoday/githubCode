@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/eureka5001/pom.xml" />
         <option value="$PROJECT_DIR$/eureka5002/pom.xml" />
         <option value="$PROJECT_DIR$/eureka5003/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon6001/pom.xml" />
+        <option value="$PROJECT_DIR$/Myprovide-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/myhystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/myhystrixdashboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
