@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: provide-data #\u5165\u9A7Beureka\u7684\u670D\u52A1\u540D\u79F0
+    name: provide-data #入驻eureka的服务名称
 
 eureka:
   client:

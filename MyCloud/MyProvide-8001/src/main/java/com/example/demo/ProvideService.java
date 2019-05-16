@@ -14,10 +14,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProvideService {
 
-    public MaiziUser buildData()
+    public MaiziUser buildData(String foo)
     {
          MaiziUser user = new MaiziUser();
-         user.setName("麦子").setAge(28).setSex("男");
+         user.setName("麦子->"+foo).setAge(28).setSex("男");
          return user;
     }
 }

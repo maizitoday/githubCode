@@ -19,7 +19,8 @@ public class ProvideController {
 	private ProvideService service;
 
 	@RequestMapping("provide")
-	public MaiziUser provide() {
-		return service.buildData();
+	public MaiziUser provide(String foo) {
+
+		return service.buildData(foo);
 	}
 }
